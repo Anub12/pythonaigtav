@@ -6,3 +6,6 @@ cv.imshow("Display window", img)
 k = cv.waitKey(0)
 
 # take a screenshot from gta 5
+
+# write code for motion detection in this file
+

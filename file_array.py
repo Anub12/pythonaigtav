@@ -21,3 +21,5 @@ print(a.shape)
 
 # for checking latest commit 2
 
+# this array stores all possibilities that our algorithm can perform
+

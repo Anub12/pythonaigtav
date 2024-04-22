@@ -12,3 +12,5 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 plt.show()
 
+# machine learning model, possibly regression model, I will be using...
+
