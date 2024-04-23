@@ -16,7 +16,8 @@ df = pandas.DataFrame(
         ],
         "Age": [22, 22, 19, 23, 24, 22, 22, 22],
         "Sex": ["male", "male", "male", "male", "male", "male", "male", "male"],
-        "Marks": [98, 92, 85, 78, 88, 92, 78, 65]
+        "Marks": [98, 92, 85, 78, 88, 92, 78, 65],
+        "Status": ["Single", "Married", "Single", "Single", "Single", "Married", "Single", "Married"]
     }
 )
 
