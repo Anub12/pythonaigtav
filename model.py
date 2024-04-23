@@ -13,19 +13,20 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 
 class X_train:
- pass
+    pass
 
 
 class y_train:
- pass
+    pass
 
 
 class X_test:
- pass
+    pass
 
 
 class y_test:
- pass
+    pass
+
 
 # Train the Model
 model.fit(X_train, y_train, epochs=10, batch_size=128)

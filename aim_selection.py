@@ -36,7 +36,7 @@ while True:
                 box = detection[0:4] * np.array([W, H, W, H])
                 (centerX, centerY, width, height) = box.astype("int")
                 # Calculate the distance from the center of the frame
-                distance = np.sqrt((centerX - W/2) ** 2 + (centerY - H / 2) ** 2)
+                distance = np.sqrt((centerX - W / 2) ** 2 + (centerY - H / 2) ** 2)
                 # Update the minimum distance and the best coordinates
                 if distance < min_distance:
                     min_distance = distance

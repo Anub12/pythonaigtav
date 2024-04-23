@@ -26,7 +26,7 @@ while True:
         (x, y, w, h) = cv2.boundingRect(contour)
         if cv2.contourArea(contour) < 1000:
             continue
-        cv2.rectangle(frame1, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        cv2.rectangle(frame1, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
     # Display output
     cv2.imshow('feed', frame1)
@@ -47,4 +47,3 @@ cap.release()
 # take a screenshot from gta 5
 
 # write code for motion detection in this file
-

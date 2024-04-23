@@ -1,6 +1,6 @@
 import numpy as np
 
-a = np.array([1,2,3])
+a = np.array([1, 2, 3])
 
 print(a)
 print(a.shape)
@@ -18,8 +18,6 @@ a = np.array([[1, 2, 3, 4],
 print(a)
 print(a.shape)
 
-
 # for checking latest commit 2
 
 # this array stores all possibilities that our algorithm can perform
-
