@@ -15,9 +15,16 @@ df = pandas.DataFrame(
             "Shubham"
         ],
         "Age": [22, 22, 19, 23, 24, 22, 22, 22],
-        "Sex": ["male", "male", "male", "male", "male", "male", "male", "male"]
+        "Sex": ["male", "male", "male", "male", "male", "male", "male", "male"],
+        "Marks": [98, 92, 85, 78, 88, 92, 78, 65]
     }
 )
 
 print(df)
+
+df.info()
+df.head()
+
+df.to_csv('out.csv', index=False)
+
 # For pushing file
