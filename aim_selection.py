@@ -14,7 +14,7 @@ while True:
     # Get the frame height and width
     (H, W) = frame.shape[:2]
 
-    # create a blob fromt the frame and pass it through the network
+    # create a blob from the frame and pass it through the network
     blob = cv2.dnn.bloblFromImage(frame, 1 / 255, (416, 416), swapRB=True, crop=False)
     net.setInput(blob)
     layerOutputs = net.forward(net.getUnconnectedOutLayersNames())
